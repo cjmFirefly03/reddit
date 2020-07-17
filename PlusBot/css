@@ -1,0 +1,7 @@
+/* Copy and paste the CSS here into your stylesheet */
+
+/*User flair - scores*/
+.flair-score-t1 {border-color: black; color: black; border-radius:0px;font-weight:bold;}
+.flair-score-t2 {border-color: blue; color: blue; border-radius:0px;font-weight:bold;}
+.flair-score-t3 {border-color: purple; color: purple; border-radius:0px;font-weight:bold;}
+.flair-score-t4 {border-color: orange; color: orange; border-radius:0px;font-weight:bold;}

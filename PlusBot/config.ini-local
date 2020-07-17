@@ -1,0 +1,19 @@
+; config.ini
+[DEFAULT]
+PASSWORD =
+CLIENT_ID =
+CLIENT_SECRET =
+USERNAME =
+POST_ID =
+
+[FORMAT_MSG]
+HEADER = **Incorrect Formatting**\r\n\r\nIf formatting is not described as above. I cannot guarantee that I can process these transactions.\r\n\r\n
+TRANSACTION = * Each transaction must have its own line. If formatting is not described as above. I cannot guarantee that I can process these transactions.
+NEW_LINE = * Extra information must be on a new line.
+USERNAME = * Username must be immediately after [S] or [B] tag - [B] /u/username G<amount>
+GRLC = * Garlic amounts must be formatted G<amount>. If using a decimal include the leading zero
+
+[DUPLICATE_MSG]
+HEADER = **Duplicate**\r\n\r\nALERT DUPLICATE DETECTED\r\n\r\n
+CREDIT = You have already received credit for this trade. If you feel this has been removed in error, please contact /u/I_regularly_lurk
+OTHER_USER = The mentioned user already posted this, you do not need to post again. If you have not already done so, please reply to the original comment where you were mentioned, so I can record your trade. If you feel this comment has been removed in error, please contact /u/I_regularly_lurk
