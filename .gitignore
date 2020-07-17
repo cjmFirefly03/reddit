@@ -1,0 +1,4 @@
+*.pyc
+PlusBot/obj
+config.ini
+PlusBot/.idea/*
